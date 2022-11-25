@@ -1,0 +1,131 @@
+main {
+    max-width: 500px !important;
+    margin: auto;
+}
+
+.navbar-theme {
+    background-color: #1b3265;
+    color: #fff;
+}
+
+.navbar-left {
+    justify-content: left !important;
+}
+
+.color-theme {
+    color: #1b3265 !important;
+}
+
+.div-add {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+.sticky-bottom {
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    position: sticky !important;
+    bottom: 10px !important;
+    transform: scaleX(1);
+    transition: transform 200ms ease 0ms;
+}
+
+.checkbox-option {
+    display: none;
+    transform: scaleX(0);
+    transition: transform 200ms ease 0ms;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}
+
+.card-click {
+    cursor: pointer !important;
+}
+
+.div-add:hover,
+.card-click:hover {
+    filter: brightness(0.92) !important;
+}
+
+.input-form {
+    border: none !important;
+    font-size: 36px !important;
+    font-weight: bold;
+    width: 100%;
+}
+
+.input-form:focus-visible {
+    border: none !important;
+    outline: none !important;
+}
+
+.input-search,
+.input-search:focus-visible {
+    border: none !important;
+    outline: none !important;
+}
+
+.bi.bi-chevron-left {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bi.bi-trash,
+.bi.bi-search {
+    -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    transform: translateY(-10%);
+}
+
+trix-editor {
+    min-height: 300px !important;
+}
+
+span.cutoff-text {
+    --max-line: 2;
+
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-line);
+}
+
+.date-display {
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.525);
+}
+
+.bi.bi-three-dots-vertical {
+    cursor: pointer;
+}
+
+.hide-el {
+    transform: scaleX(0);
+    transition: transform 200ms ease 0ms;
+}
+
+.show-el {
+    display: block !important;
+    transform: scaleX(1);
+    transition: transform 200ms ease 0ms;
+    min-width: 30px !important;
+}
+
+.option-show {
+    display: block !important;
+    user-select: none;
+}
+
+.btn-option,
+#check-all,
+label[for="check-all"] {
+    cursor: pointer;
+}
