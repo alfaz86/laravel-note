@@ -2,13 +2,13 @@
 
 ## Pull Repository
 
-1. Clone this repository, with link :
+1. Clone this repository, with code below :
 
 ```
 git clone https://github.com/alfaz86/laravel-note.git
 ```
 
-2. Open in your cmd or terminal and paste the link
+2. Open in your cmd or terminal and paste the code
 
 ## Setting Project
 
@@ -58,4 +58,4 @@ php artisan migrate
 php artisan serve
 ```
 
-10. Go to [a link](http://localhost:8000)
+10. Go to [http://localhost:8000](http://localhost:8000)
